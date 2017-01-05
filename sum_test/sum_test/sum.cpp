@@ -1,6 +1,4 @@
-#include <iostream>
 #include "sum.h"
-using namespace std;
 int sum(int n){
 	int i,res=0;
 	for(i=1;i<=n;i++)
