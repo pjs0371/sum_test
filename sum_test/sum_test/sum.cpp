@@ -1,7 +1,6 @@
 #include "sum.h"
 int sum(int n){
-	int i,res=0;
-	for(i=1;i<=n;i++)
-		res+=i;
+	int res=0;
+	res=(1+n)/2;
 	return res;
 }
